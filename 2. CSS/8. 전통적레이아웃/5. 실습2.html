@@ -9,7 +9,110 @@
 
     <style>
 
+
         section {
+            width: 800px;
+            border: 3px double blue;
+            margin: 20px auto 0;
+            color: #333;
+        }
+
+        h1 {
+            font: bold 40px cursive, sans-serif;
+            background: #ccc;
+            text-align: center;
+            padding: 20px 20px;
+        }
+               
+        section .intro {
+            font-size: 18px;
+            background: black;
+            color: white;
+            padding: 10px;
+            border-bottom: 3px solid gray;
+            text-align: center;
+        }
+
+        section .intro em {
+            color: yellow;
+            font-size: 20px;
+        }
+
+        section .gallery {
+            background: #6e6a6a;
+            padding: 20px 0;
+        }
+
+        section .gallery li {
+            width: 23.75%;
+            height: 330px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-right: 1%;
+            float: left;
+        }
+
+        .gallery li h2 {
+            height: 150px;
+            border: 1px solid lightgray;
+            background: white;
+        }
+
+        .gallery li P {
+            margin-top: 20px;
+            padding: 0 10px;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 1.3;
+            color: black;
+        }
+
+        #tulip {
+            margin-left: 1%;
+            background: red;
+        }
+        
+        #tulip h2 {
+            background: url(./images/tulip.jpg) no-repeat center;
+            background-size: cover; 
+        }
+
+        #jebi {
+            background: violet;
+        }
+
+        #jebi h2 {
+            background: url(./images/jebi.jpg) no-repeat center;
+            background-size: cover;
+        }
+        
+        #hobak {
+            background: orange;
+        }
+
+        #hobak h2 {
+            background: url(./images/hobak.jpg) no-repeat 30% center;
+            background-size: cover;
+        }
+        
+        #sunflower {
+            background: yellow;
+        }
+
+        #sunflower h2 {
+            background: url(./images/sunflower.jpg) no-repeat 30% center;
+            background-size: cover;
+        }
+
+        .clearfix::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+
+        /* section {
             width: 680px;
             border: 3px double blue;
             margin: 5px auto 0;
@@ -98,20 +201,20 @@
             content: '';
             display: block;
             clear: both;
-        }
+        } */
     </style>
 
 </head>
 <body>
     
-    <section class="clearfix">
+    <section>
         <h1>나의 아름다운 정원</h1>
         <p class="intro">
             사람들은 아마 자신에게 <em>자신감을 북돋워 주는</em> 
             표정있는 꽃들을 선호할 것이다.
         </p>
 
-        <ul class="gallery">
+        <ul class="gallery clearfix">
             <li id="tulip">
                 <h2></h2> <!-- 각 h2에 background 속성 사용해서 url로 꽃 이미지 넣기-->
                 <p>너무 화려하지 않으며 고귀한 느낌을 가지고 있다.

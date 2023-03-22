@@ -1,0 +1,166 @@
+
+@import url('../../../common.css');
+
+/* base style */
+body {
+    background: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    font-family: '굴림', 'Gulim', serif;
+}
+
+#wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* header style */
+header {
+    background: #123456;
+    padding: 10px;
+    color: white;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #cc0;
+    text-align: center;
+    font-family: sans-serif, cursive;
+}
+
+header h1 strong {
+    font-size: 3em;
+    color: white;
+}
+
+header h1 span {
+    font-size: 1.5em;
+}
+
+header h1 em {
+    font-size: 2em;
+    color: gray;
+}
+
+
+/* begin container style */
+.container {
+    background: #ccc;
+}
+.container .menu {
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+.container .menu li {
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+.container .menu li a:hover {
+    color: #662;
+    border-bottom: 1px dashed #662;
+}
+
+.container .content {
+    background: #fff;
+    float: right;
+    width: 80%;
+}
+.container .content h2 {
+    background: #800;
+    color: #ee0;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 20px;
+    font-family: '궁서', cursive;
+}
+
+.container .content p {
+    padding: 20px;
+    text-align: justify;
+}
+
+
+/* footer style */
+footer{
+    background: #aaa;
+    padding: 10px 20px;
+}
+footer address {
+    color: #000;
+}
+/* #wrapper {
+    width: 800px;
+    margin: 20px auto 0;
+}
+
+header h1 {
+    background: #1a1a81;
+    color: yellow;
+    text-align: center;
+    padding: auto 20px;
+    font-weight: bold;
+}
+
+header h1 strong {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+header h1 span {
+    font-size: 40px;
+}
+
+header h1 em {
+    color: lightgray;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.container {
+    background: rgb(184, 183, 183);
+}
+
+.container ul {
+    float: left;
+}
+
+.container .menu {
+    text-decoration: underline;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.container .menu li a {
+    line-height: 2.5;
+}
+
+.content {
+    width: 85%;
+    margin-left: 15%;
+    background: white;
+}
+
+.content h2 {
+    background: red;
+    color: yellow;
+    font: bold 30px cursive, sans-serif;
+    padding: 10px;
+}
+
+.content p {
+    font-size: 15px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+footer {
+    background: gray;
+    padding: 10px 5px;
+    color: black;
+} */

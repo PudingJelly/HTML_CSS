@@ -75,6 +75,7 @@ header .stit {
     border-bottom: 1px dashed black;
 }
 
+
 /* main-content style */
 
 .container .main-content {
@@ -109,6 +110,8 @@ header .stit {
     font-weight: 400;
 }
 
+
+/* banner style */
 .container .banner {
     width: 25%;
     font-weight: bold;
@@ -157,6 +160,8 @@ header .stit {
     font-weight: 400;
 }
 
+
+/* footer style */
 footer {
     background: #123456;
     padding: 10px;
@@ -168,6 +173,8 @@ footer {
 footer a {
     text-decoration: underline;
 }
+
+
 
 /* body {
     background: gray;

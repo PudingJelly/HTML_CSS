@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 
+        클래스 이름이 ??로 끝난다면
+        div[class$=box] {
+        } 
+        */
+
+        div[class^=box] {
+            width: 200px;
+            height: 200px;
+            background: orange;
+            margin: 50px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 200px;
+            transition: 2s;
+        }
+
+        /* 회전 */
+        .box1:hover{
+            transform: rotate(720deg);
+        }
+
+        /* 이동 */
+        .box2:hover {
+            /* transform: translate(100px, 100px); */
+            transform: translateY(-100px);
+        }
+
+        /* 요소의 크기 증가 */
+        .box3:hover {
+            transform: scale(0.7, 1.5);
+        }
+
+        /* 기울기 */
+        .box4:hover {
+            transform: skew(0, 20deg);
+        }
+
+        /* 여러 요소 동시 적용 */
+        .box5:hover {
+            transform: translate(30px,-20px) skew(-20deg) scale(0.7) rotate(720deg);
+        }        
+    </style>
+
+</head>
+<body>
+    
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+    <div class="box5">5</div>
+
+</body>
+</html>

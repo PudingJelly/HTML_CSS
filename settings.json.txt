@@ -1,0 +1,37 @@
+{
+    "editor.mouseWheelZoom": true,
+    "editor.fontLigatures": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "json.schemas": [],
+    "editor.tokenColorCustomizations": {
+        "comments": "#A9A9A9",
+        "textMateRules": [{
+                "scope":"comment",
+                "settings": {
+                        "fontStyle": "",
+                    },
+                }]
+    },
+
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    
+    "powermode.enabled": true,
+    "powermode.combo.counterEnabled": "hide", 
+    "powermode.combo.location": "off",
+    "powermode.shake.enabled": false,
+    "powermode.combo.timerEnabled": "hide",
+    "powermode.explosions.frequency": 1,
+    "powermode.explosions.maxExplosions": 5,
+    "powermode.explosions.offset": 0.3,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "launch": {
+        
+        "configurations": [],
+        "compounds": []
+    },
+    
+    
+}
